@@ -1,0 +1,9 @@
+.col-md-4:hover {
+  background-color: #141414 !important;
+}
+
+.custom-size {
+  width: 100%; 
+  height: 235px; 
+  object-fit: cover;
+}

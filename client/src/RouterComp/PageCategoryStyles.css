@@ -1,0 +1,29 @@
+/* Base style for nav items */
+.nav-item {
+  position: relative;
+  margin: 0 10px;
+  margin-bottom: 16px;
+}
+
+/* Base hover effect for all links */
+.nav-item .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff; /* White line for light text */
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+/* Expand line on hover */
+.nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active class: line displayed by default */
+.nav-item .nav-link.active::after {
+  width: 100%; /* Full width */
+}

@@ -1,0 +1,11 @@
+.pagination .page-link {
+  border: none !important;
+}
+
+.pagination .page-link.active {
+  background-color: #f0ad4e !important;
+}
+
+.pagination .page-link:hover {
+  background-color: #f0ad4e !important;
+}

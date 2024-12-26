@@ -1,0 +1,12 @@
+main {
+    flex: 1;
+}
+
+.intro-paragraph::first-letter {
+    font-size: 70px; 
+    font-weight: bold;
+    font-family: serif;
+    float: left;
+    line-height: 1;
+    margin-right: 8px; /* Space between large letter and the text */
+}
