@@ -2,4 +2,4 @@
 
 [![Website Screenshot]
 
-![Home](Preview/home.png)
+![Home](Previews/home.png)
